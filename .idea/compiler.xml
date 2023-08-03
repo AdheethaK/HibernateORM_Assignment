@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="PartTwo" />
         <module name="PartOne" />
+        <module name="OneToOne" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HibernateORM_assignment" target="11" />
+      <module name="OneToOne" target="11" />
       <module name="PartOne" target="11" />
       <module name="PartTwo" target="11" />
     </bytecodeTargetLevel>
