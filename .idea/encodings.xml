@@ -3,9 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/PartOne/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PartOne/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartTwo/ManyToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartTwo/ManyToMany/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartTwo/OneToMany/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PartTwo/OneToMany/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PartTwo/OneToOne/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PartTwo/OneToOne/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PartTwo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PartTwo/src/main/resources" charset="UTF-8" />
   </component>
 </project>

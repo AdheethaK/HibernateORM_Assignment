@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PartTwo" />
-        <module name="PartOne" />
+        <module name="ManyToMany" />
         <module name="OneToOne" />
+        <module name="PartTwo" />
+        <module name="OneToMany" />
+        <module name="PartOne" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HibernateORM_assignment" target="11" />
+      <module name="ManyToMany" target="11" />
+      <module name="OneToMany" target="11" />
       <module name="OneToOne" target="11" />
       <module name="PartOne" target="11" />
       <module name="PartTwo" target="11" />
