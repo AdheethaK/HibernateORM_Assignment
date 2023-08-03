@@ -26,6 +26,9 @@ public class Main_PartOnE {
         book = (Book) session.get(Book.class, "9780545069670");
         System.out.println(book);
 
+        transaction.commit();
+        session.close();
+
         //updating an existing book
         Book book = new Book();
         book.setISBN("9780545069670");
@@ -35,6 +38,8 @@ public class Main_PartOnE {
         book1 = (Book) session.get(Book.class, "9780545069670");
         System.out.println(book1);
 
+        transaction.commit();
+        session.close();
          */
 
         //deleting an existing book
@@ -45,5 +50,8 @@ public class Main_PartOnE {
         Book book1 = null;
         book1 = (Book) session.get(Book.class, "9780545069670");
         System.out.println(book1);
+
+        transaction.commit();
+        session.close();
     }
 }
