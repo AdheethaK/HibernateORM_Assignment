@@ -7,7 +7,7 @@ public class Main_PartOnE {
     public static void main(String[] args) {
         Session session= FactoryConfiguration.getInstance().getSession();
         Transaction transaction= session.beginTransaction();
-
+        /*
         //1. create a new book
         Book book = new Book();
         book.setISBN("9780545069670");
@@ -20,5 +20,11 @@ public class Main_PartOnE {
         session.persist(book);
         transaction.commit();
         session.close();
+
+         */
+        //retrieve a book by its ID from the database
+        Book book = null;
+        book = (Book) session.get(Book.class, "9780545069670");
+        System.out.println(book);
     }
 }
