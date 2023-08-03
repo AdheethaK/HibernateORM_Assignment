@@ -4,3 +4,4 @@ The CRUD opertaions implemented:
     2. retieve a book by its ID from the database
     3. updating an existing book's attributes(title, ISBN) 
         & save the changes to the database
+    4. delete a book from the database
